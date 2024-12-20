@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- GIF centered in the middle -->
+    <ImageView
+        android:id="@+id/ivCongratsGif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cats"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <!-- TextView below the GIF -->
+    <TextView
+        android:id="@+id/tvCongratsMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Congratulations! You are now booked at Jiwel Hotel."
+        android:textSize="18sp" />
+
+    <!-- Back to Home Button -->
+    <Button
+        android:id="@+id/btnBackToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="121dp"
+        android:text="Back to Home" />
+
+</RelativeLayout>

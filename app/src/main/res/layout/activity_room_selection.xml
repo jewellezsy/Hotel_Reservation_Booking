@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:padding="8dp"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etAdults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Adults"
+            android:inputType="number"
+            android:padding="8dp"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etKids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Kids"
+            android:inputType="number"
+            android:padding="8dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvCheckInDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check-In Date"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCheckInDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerCheckInMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvCheckOutDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check-Out Date"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCheckOutDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinnerCheckOutMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvRoomType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Room Type"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerRoomType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnConfirmDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Details"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
